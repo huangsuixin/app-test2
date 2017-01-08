@@ -1,0 +1,69 @@
+.page1 img{
+	position: absolute;
+}
+html,body,.page-box{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+.page-box{
+	position: relative;
+}
+.page{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.page1{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+/*延时*/
+.animation-delay500ms{-webkit-animation-delay: 500ms;}
+.animation-delay1000ms{-webkit-animation-delay: 1000ms;}
+.animation-delay1500ms{-webkit-animation-delay: 1500ms;}
+.animation-delay2000ms{-webkit-animation-delay: 2000ms;}
+.animation-delay2500ms{-webkit-animation-delay: 2500ms;}
+.animation-delay3000ms{-webkit-animation-delay: 3000ms;}
+.animation-delay3500ms{-webkit-animation-delay: 3500ms;}
+.animation-delay4000ms{-webkit-animation-delay: 4000ms;}
+.animation-delay4500ms{-webkit-animation-delay: 4500ms;}
+.animation-delay5000ms{-webkit-animation-delay: 5000ms;}
+.animation-delay5500ms{-webkit-animation-delay: 5500ms;}
+.animation-delay6000ms{-webkit-animation-delay: 6000ms;}
+.animation-delay6500ms{-webkit-animation-delay: 6500ms;}
+.animation-delay7000ms{-webkit-animation-delay: 7000ms;}
+.animation-delay7500ms{-webkit-animation-delay: 7500ms;}
+.animation-delay8000ms{-webkit-animation-delay: 8000ms;}
+.animation-delay8500ms{-webkit-animation-delay: 8500ms;}
+.animation-delay9000ms{-webkit-animation-delay: 9000ms;}
+.animation-delay9500ms{-webkit-animation-delay: 9500ms;}
+.animation-delay10000ms{-webkit-animation-delay: 10000ms;}
+.animation-delay15000ms{-webkit-animation-delay: 15000ms;}
+.animation-delay20000ms{-webkit-animation-delay: 20000ms;}
+.animation-delay25000ms{-webkit-animation-delay: 25000ms;}
+.animation-delay30000ms{-webkit-animation-delay: 30000ms;}
+
+
+.page1 .bg{width: 100%;height: 100%;}
+.page1 .title1{width: 130%;right: -20%;top: 10%;}
+.page1 .sunyang{width: 80%;top: 40%;right: 40%;}
+.page1 .fu{width: 46%;top: 20%;right: 65%;}
+.page1 .zjk{width: 100%;top: 20%;right: -45%;}
+/*.page1 .girl{width: 70%;top:40%;right: -22%;}*/
+.page1 .nvpai{width: 120%;top: 48%;right: -5%;}
+
+.page1 .sun2{width: 100%;height: 100%;}
+.page1 .sunwen{width: 30%;}
+.page1 .nvpai2{width: 100%;height: 100%;}
+.page1 .guanjun{width: 130%;right: 20%;top: -23%;}
+.page1 .word1{width: 100%;top: 20%;right: 2%;}
+/*.page1 .shen{width: 100%;height: 100%;}
+.page1 .shenwen{width: 30%;}*/

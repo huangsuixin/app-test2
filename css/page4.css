@@ -1,0 +1,35 @@
+.page4 img{
+	position: absolute;
+}
+.page4 .world{
+	width: 100%;
+	height: 100%;
+}
+.page4 .title4{
+	width:100%;
+	height: 18%;
+	top: 35%;
+}
+.page4 .englishi{
+	width:100%;
+	top: 20%;
+}
+.page4 .english-text{
+	width: 7%;
+	top: 10%;
+	left:80%;
+}
+.page4 .korea{
+	top: 30%;
+	height: 60%;
+	left: 25%;
+}
+.page4 .Korea-crisis{
+	top:50%;
+	left: 10%;
+	height: 40%;
+}
+.page4 .nieshubin{
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,100 @@
+
+.page5 img{
+	position: absolute;
+}
+.page5 .tittle{
+	width: 100%;
+	height: 20%;
+	top: 20%;
+}
+.page5 .bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.page5 .run{
+	bottom: 40%;
+	left: 20%;
+	width: 54%;
+	height: 26%;
+}
+.page5 .baolunTxt{
+	bottom: 80%;
+	left: 16%;
+	width: 80%;
+	height: 10%;
+}
+.page5 .xiaoliziTxt{
+	bottom: 80%;
+	width: 80%;
+	height: 10%;
+}
+.page5 .feierpusi{
+	height: 100%;
+	width: 110%;
+}
+.page5 .baolun{
+	height: 100%;
+	width: 100%;
+}
+@keyframes page5-gIn{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+.page5-bgIn{
+	animation-name: page5-gIn;
+	animation-duration: 0.5s;
+	animation-timing-function: linear;
+	animation-fill-mode: both;
+}
+@keyframes page5-scale{
+	from{transform: scale(0);}
+	to{transform: scale(1);}
+}
+.page5-scale{
+	animation-name: page5-scale;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-fill-mode: both;
+}
+@keyframes page5-translate{
+	from{transform: translateY(-210%) scale(0);}
+	to{transform: translateY(0) scale(1);}
+}
+.page5-translate{
+	animation-name: page5-translate;
+	animation-duration: 1.5s;
+	animation-timing-function: linear;
+	animation-fill-mode: both;
+}
+@keyframes page5-opcity{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+.page5-opcity{
+	animation-name: page5-opcity;
+	animation-duration: 1.5s;
+	animation-timing-function: linear;
+	animation-fill-mode: both;
+}
+.animation-delay9500ms{animation-delay:9500ms;}
+.animation-delay10000ms{animation-delay:10000ms;}
+.animation-delay11000ms{animation-delay:11000ms;}
+.animation-delay12500ms{animation-delay:12500ms;}
+.animation-delay13500ms{animation-delay:13500ms;}
+.animation-delay14500ms{animation-delay:14500ms;}
+.lai{
+	width: 60%;
+	height: 33%;
+	border-radius: 100%;
+	top: 40%;
+	border: 8px solid wheat;
+}
+.lai2{
+	width: 60%;
+	height: 33%;
+	border-radius: 100%;
+	top: 57%;
+	left: 35%;
+	border: 8px solid wheat;
+}

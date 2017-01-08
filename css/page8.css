@@ -1,0 +1,101 @@
+
+.page8 .bg{
+    position: absolute;
+}
+.page8 .title1{
+    position: absolute;
+    width:60%;
+    top:10%;
+    left:0;
+}
+.page8 .title2{
+    position: absolute;
+    width:80%;
+    top:30%;
+    left:20%;
+}
+.page8 .title3{
+    position: absolute;
+    width:40%;
+    top:50%;
+    left:30%;
+}
+.page8 .head{
+    width:20%;
+    float: left;
+    max-width:20%;
+    height:11%;
+    box-shadow:  0 0 30px 1px rgba(255,255,255,0.3);
+    opacity:0.1;
+}
+.page8 .flight{
+    position: absolute;
+    top:0;
+    right:-20%;
+}
+
+@keyframes BGpage8Move {
+    0%{
+        transform:translateY(0) scale(1);
+    }
+    50%{
+        transform:translateY(-50%) scale(1.5);
+    }
+    100%{
+        transform:translateY(0) scale(1);
+    }
+}
+.BGpage8Move{
+    animation-name:BGpage8Move;
+    animation-duration: 30s;
+    animation-fill-mode: both;
+    /*animation-timing-function: linear;*/
+    animation-iteration-count: infinite;
+}
+
+@keyframes light {
+    0%{
+        opacity:0.1;
+        transform:scale(0.8)
+    }
+    50%{
+        opacity:0.4;
+        transform:scale(1)
+    }
+    100%{
+         opacity:0.1;
+         transform:scale(0.8)
+     }
+}
+.light{
+    animation-name:light;
+    animation-duration: 8s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+
+}
+@keyframes flightMove {
+    0%{
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(15%);
+    }
+    100%{
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0%);
+      }
+}
+.flightMove{
+    animation-name:flightMove;
+    animation-duration: 8s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}

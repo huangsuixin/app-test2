@@ -1,0 +1,73 @@
+.page2 img{
+    position: absolute;
+}
+.page2 .qianguan{
+    width: 100%;
+    height: 100%;
+}
+.page2 .title{
+    width: 100%;
+    top: 5%;
+}
+.page2 .xujiali{
+    width: 100%;
+    height: 100%;
+}
+.page2 .fanchuan{
+    left: 66%;
+    top: 30%;
+}
+.page2 .xu-name{
+    width: 100%;
+    height: 80%;
+    bottom: 20%;
+    /*border: solid 1px red;*/
+}
+.page2 .xutxt{
+    width: 100%;
+    height: 97%;
+    top: 3%;
+    /*border: solid 1px red;*/
+}
+.page2 .lvbin{
+    width: 100%;
+    height: 100%;
+}
+.page2 .lv-content{
+    width: 75%;
+    height: 70%;
+    top: 5%;
+    left: 5%;
+    /*border: solid 1px red;*/
+}
+.page2 .kobe{
+    width: 100%;
+    height: 100%;
+}
+.page2 .kobe-name{
+    width: 85%;
+    height: 85%;
+    left: 7%;
+}
+.page2 .kobe-zijin{
+    width: 85%;
+    height: 85%;
+    left: 7%;
+}
+.page2 .tf{
+    width: 90%;
+    height: 90%;
+    left: 5%;
+}
+.page2 .kuang{
+    width: 100%;
+    height: 100%;
+}
+
+.animation-delay9500ms{animation-delay:9500ms;}
+.animation-delay10000ms{animation-delay:10000ms;}
+.animation-delay11000ms{animation-delay:11000ms;}
+.animation-delay12000ms{animation-delay:12000ms;}
+.animation-delay13000ms{animation-delay:13000ms;}
+.animation-delay14000ms{animation-delay:14000ms;}
+.animation-delay15000ms{animation-delay:15000ms;}

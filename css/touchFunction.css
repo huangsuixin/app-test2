@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    border:0;
+    padding:0;
+}
+html,body,.page-box{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.page-box{
+    position: relative;
+}
+.page{
+    position: absolute;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.hidden{
+    display: none;
+}
+
+/*定义动画*/
+@-webkit-keyframes toTop {
+    0%{
+
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+}
+.toTop{
+    -webkit-animation-name:toTop;
+    -webkit-animation-duration:0.5s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-fill-mode:both;
+}
+
+@-webkit-keyframes toBottom {
+    0%{
+
+    }
+    100%{
+        -webkit-transform: translateY(100%);
+    }
+}
+.toBottom{
+    -webkit-animation-name:toBottom;
+    -webkit-animation-duration:0.5s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-fill-mode:both;
+
+}
+
+@-webkit-keyframes prevBottom {
+    0%{
+        -webkit-transform: translateY(-100%);
+
+    }
+    100%{
+        -webkit-transform: translateY(0);
+    }
+}
+.prevBottom{
+    -webkit-animation-name:prevBottom;
+    -webkit-animation-duration:0.5s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-fill-mode:both;
+
+}
+
+@-webkit-keyframes nextTop {
+    0%{
+        -webkit-transform: translateY(100%);
+
+    }
+    100%{
+        -webkit-transform: translateY(0);
+    }
+}
+.nextTop{
+    -webkit-animation-name:nextTop;
+    -webkit-animation-duration:0.5s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-fill-mode:both;
+
+}
+
+
+.animation-delay500ms{animation-delay:500ms;}
+.animation-delay1000ms{animation-delay:1000ms;}
+.animation-delay1500ms{animation-delay:1500ms;}
+.animation-delay2000ms{animation-delay:2000ms;}
+.animation-delay2500ms{animation-delay:2500ms;}
+.animation-delay3000ms{animation-delay:3000ms;}
+.animation-delay3500ms{animation-delay:3500ms;}
+.animation-delay4000ms{animation-delay:4000ms;}
+.animation-delay4500ms{animation-delay:4500ms;}
+.animation-delay5000ms{animation-delay:5000ms;}
+.animation-delay5500ms{animation-delay:5500ms;}
+.animation-delay6000ms{animation-delay:6000ms;}
+.animation-delay6500ms{animation-delay:6500ms;}
+.animation-delay7000ms{animation-delay:7000ms;}
+.animation-delay8000ms{animation-delay:8000ms;}
+.animation-delay9000ms{animation-delay:9000ms;}
+
+#bgn{
+    position: fixed;
+    z-index:1000;
+    width:40px;
+    height:40px;
+    right:20px;
+    top:20px;
+}
+
+@keyframes rotate {
+    0%{transform:rotate(0deg)}
+    100%{transform:rotate(360deg)}
+}
+.rotate{
+    animation:rotate 5s linear infinite;
+}
